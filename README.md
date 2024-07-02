@@ -1,6 +1,8 @@
 Wine Quality Prediction Using KNN Algorithm
 Wine quality prediction involves the use of machine learning algorithms to predict the quality of wine based on various chemical properties. One effective method for this task is the K-Nearest Neighbors (KNN) algorithm. KNN is a simple, non-parametric, and lazy learning algorithm that classifies data based on the similarity between the target and its nearest neighbors.
+
 Steps for Wine Quality Prediction Using KNN
+
 Data Collection: Gather a dataset that includes various chemical properties of wines along with their quality ratings. An example dataset is the Wine Quality dataset, which consists of red and white wine samples with attributes like fixed acidity, volatile acidity, citric acid, residual sugar, chlorides, free sulfur dioxide, total sulfur dioxide, density, pH, sulphates, alcohol, and quality.
 
 Data Preprocessing: Clean the dataset by handling missing values, scaling the features, and splitting the data into training and test sets. Scaling is crucial for KNN as it is sensitive to the magnitude of the data.
